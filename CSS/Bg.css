@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg {
+    height: 100vh;
+
+    background-image: url("../mountain.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: rgb(0, 0, 0);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* moves everything right */
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.b1-nav {
+    margin-right: auto;
+    font-size: 30px;
+}
+
+.b2-nav,
+.b3-nav,
+.b4-nav,
+.b5-nav {
+    cursor: pointer;
+}
+
+.b2-nav:hover,
+.b3-nav:hover,
+.b4-nav:hover,
+.b5-nav:hover {
+
+    transform: translateY(-5px);
+    transition-duration: 0.3s;
+
+}
+
+.main1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.main-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 200%);
+    background-color: rgb(54, 80, 181);
+    border-color: rgb(100, 18, 253);
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.main-btn:hover {
+    cursor: grab;
+}

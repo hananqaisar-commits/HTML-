@@ -72,8 +72,13 @@
     border-left: 6px solid black;
 
 }
-}
 
+.skills li:hover,
+.li li:hover {
+    background-color: rgb(90, 85, 120);
+    transform: translateY(-2px);
+    transition: 0.3s ease;
+}
 
 .li li,
 .skills li {
