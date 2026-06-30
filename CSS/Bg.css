@@ -12,7 +12,7 @@
     background-position: center;
     background-repeat: no-repeat;
 
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .header {
@@ -44,6 +44,7 @@
 
     transform: translateY(-5px);
     transition-duration: 0.3s;
+    color: rgb(0, 255, 166);
 
 }
 
@@ -52,9 +53,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 110px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
     text-align: center;
 }
 
@@ -64,18 +65,19 @@
     left: 50%;
     transform: translate(-50%, 50%);
 
-    font-size: 20px;
-    padding: 10px;
+    font-size: 15px;
+    padding: 35px;
     text-align: center;
 }
 
 .main-btn {
     position: absolute;
-    top: 50%;
+    top: 54%;
     left: 50%;
     transform: translate(-50%, 200%);
-    background-color: rgb(54, 80, 181);
-    border-color: rgb(100, 18, 253);
+    background-color: rgb(0, 255, 166);
+    border-color: rgb(0, 255, 166);
+    border-color: rgb(0, 255, 166);
     border-radius: 25px;
     font-size: 20px;
     padding: 10px;
